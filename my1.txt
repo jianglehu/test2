@@ -1,1 +1,12 @@
-测试远程分支与本地分支
+1.  查看当前已存在分支：git branch 
+2.  查看分支的详细信息：gt branch -v 
+3.  创建一个分支：git branch 分支名称
+4.  切换到指定已存在的分支：git checkout 要切换的分支名称
+5.  创建并切换到新建分支：git checkout -b 分支名
+6.  **拉取远程分支的所用内容 git pull origin 远程分支名称**
+7.  **删除分支：git branch -d 本地分支名称**
+8.  **删除远程分支：git push origin --delete  远程分支名称**
+9.  合并分支步骤
+    1. 先切换到master/其他分支
+    2. git merge 被合并的分支名
+10.  解决合并分支所产生的冲突
